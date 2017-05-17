@@ -10,8 +10,12 @@ public class TestComplexe {
 		Complexe c2 = new Complexe(-3, 4);
 	
 		//appeler les méthodes
-		//Complexe c3 = c1.plus(c2);
-		System.out.println(c1.plus(c2));
-		System.out.println(c1.moins(c2));
+		Complexe c3 = c1.plus(c2);
+		//System.out.println(c1.plus(c2));
+		//System.out.println(c1.moins(c2));
+		
+		
+
+		
 	}
 }

@@ -35,4 +35,13 @@ public class Complexe {
 		return new Complexe(this.partieReele - c.partieReele , this.partieImaginaire - c.partieImaginaire);
 	}
 	
+	public String toString() {
+		if (partieImaginaire > 0)
+			return this.partieReele + " + " + this.partieImaginaire + " i";
+		else if (partieImaginaire < 0)
+			return this.partieReele + " " + this.partieImaginaire + " i";
+		else
+			return this.partieReele + "";
+	}
+	
 }
