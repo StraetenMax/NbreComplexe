@@ -20,6 +20,8 @@ public class TestComplexe {
 		System.out.println(c4);
 		System.out.println(c5);
 		System.out.println(c6);
+		System.out.println(c1);
+		System.out.println(c2);
 		
 
 		
