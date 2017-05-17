@@ -14,4 +14,17 @@ public class Complexe {
 		this.partieReele = partieReele;
 		this.partieImaginaire = partieImaginaire;
 	}
+	// accesseurs et mutateurs
+	public int getPartieReele(){
+		return partieReele;
+	}
+	public int getPartieImaginaire(){
+		return partieImaginaire;
+	}
+	public void setPartieReele(int partieReele){
+		this.partieReele = partieReele;
+	}
+	public void setPartieImaginaire(int partieImaginaire){
+		this.partieImaginaire = partieImaginaire;
+	}
 }
